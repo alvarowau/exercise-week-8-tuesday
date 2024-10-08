@@ -1,0 +1,27 @@
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+
+###
+GET http://localhost:8080/api/courses/search?courseName=cours23
+Accept: application/json
+
+
+
+###
+GET http://localhost:8080/api/courses/search?courseName=course2
+Accept: application/json
+
+
+
+###
+GET http://localhost:8080/api/courses/search?courseName=course4&instructorName=Instructor4
+Accept: application/json
+
+
+###
+GET http://localhost:8080/api/courses/search?instructorName=Instructor3
+
+
+
+
+
